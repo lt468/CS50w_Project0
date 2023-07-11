@@ -14,6 +14,11 @@ body {
   justify-content: center;
 }
 
+.label-cell {
+  padding-right: 50px;
+  padding-bottom: 10px;
+}
+
 #input_form {
   margin-top: 20px;
   text-align: center;
@@ -23,19 +28,36 @@ body {
   text-align: left;
 }
 
-.shared-form-styles, input[type=submit], input[type=text] {
+.shared-form-styles, #advanced_submit, .main_search_submit, .main_search_text {
   display: block;
   margin: 10px auto;
   padding: 10px;
 }
 
-input[type=text] {
+.main_search_text {
   width: 400px;
   border-radius: 25px;
   border: 2px solid gray;
 }
 
-input[type=submit] {
+.advanced_text {
+  width: 400px;
+  height: 25px;
+  border: 2px solid gray;
+  margin-right: 45px;
+}
+
+.advanced_text:focus {
+  border: 1px solid royalblue;
+}
+
+#todo {
+  align-self: flex-end;
+  margin-left: 550px;
+  margin-bottom: 30px;
+}
+
+.main_search_submit {
   color: rgba(0, 0, 0, 0.8);
   border-radius: 5px;
   border: 2px solid gray;
@@ -74,7 +96,7 @@ h4 {
   font-size: 25px;
 }
 
-#find_pages_div {
+.to_the_left {
   text-align: left;
   display: flex;
   align-self: flex-start;
@@ -104,6 +126,13 @@ a:hover {
 #advanced_submit {
   background: royalblue;
   color: white;
+  width: 150px;
+  margin-right: 45px;
+  border: blue;
+}
+
+#advanced_submit:hover {
+  background: steelblue;
 }
 
 /*# sourceMappingURL=style.css.map */

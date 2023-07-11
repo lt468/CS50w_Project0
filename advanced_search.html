@@ -18,8 +18,42 @@
         <div>
             <h2>not quite </h2><h1>Google</h1><h3> advanced</h3>
         </div>
-        <div id="find_pages_div">
+        <div class="to_the_left">
             <h4>Find pages with...</h4>
+            <div id="todo">
+                To do this in the search box.
+            </div>
+        </div>
+        <div class="to_the_left">
+            <table>
+                <form action="https://google.com/search">
+                    <tr>
+                        <td class="label-cell">all these words:</td>
+                        <td><input class="advanced_text" type="text" placeholder="test"></td>
+                        <td><div style="font-size:12px; display:inline-block;">Type the important words:&nbsp</div><div style="font-family:monospace; display:inline-block; font-size:12px">tri-colour rat terrier</div></td>
+                    </tr>
+                    <tr>
+                        <td class="label-cell">this exact word or phrase:</td>
+                        <td><input class="advanced_text" type="text" placeholder="test"></td>
+                        <td><div style="font-size:12px; display:inline-block;">Put exact words in quotes:&nbsp</div><div style="font-family:monospace; display:inline-block; font-size:12px">"rat terrier"</div></td>
+                    </tr>
+                    <tr>
+                        <td class="label-cell">any of these words:</td>
+                        <td><input class="advanced_text" type="text" placeholder="test"></td>
+                        <td><div style="font-size:12px; display:inline-block;">Type OR between all the words you want:&nbsp</div><div style="font-family:monospace; display:inline-block; font-size:12px">miniature OR standard</div></td>
+                    </tr>
+                    <tr>
+                        <td class="label-cell">none of these words:</td>
+                        <td><input class="advanced_text" type="text" placeholder="test"></td>
+                        <td><div style="font-size:12px; display:inline-block;">Put a minus sign just before words that you don't want:&nbsp</div><div style="font-family:monospace; display:inline-block; font-size:12px">-rodent, -"Jack Russell"</div></td>
+                    </tr>
+                    <tr>
+                        <td></td>
+                        <td><input id="advanced_submit" type="submit" value="Advanced Search"></td>
+                        <td></td>
+                    </tr>
+                </form>
+            </table>
         </div>
     </body>
 </html>
