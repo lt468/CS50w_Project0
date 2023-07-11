@@ -1,50 +1,66 @@
 <!DOCTYPE html>
 <html lang="en">
     <head>
+        <!-- Linking an external stylesheet -->
         <link rel="stylesheet" href="style.css">
 
+        <!-- Setting the character encoding and viewport for the page -->
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1">
+
+        <!-- Linking another CSS file and setting the favicon for the page -->
         <link href="css/style.css" rel="stylesheet">
         <link rel="icon" type="imgage/png" href="https://www.logolynx.com/images/logolynx/5e/5ecf1a6d48b8cbb4eb2d69563612e3d2.png">
 
+        <!-- Setting the title of the page -->
         <title>not quite Google advanced</title>
     </head>
     <body>
+        <!-- Navigation bar -->
         <div class="navbar">
             <a href="image_search.html">images</a>
             <a href="index.html">back</a>
         </div>
+
+        <!-- Page heading -->
         <div>
             <h2>not quite </h2><h1>Google</h1><h3> advanced</h3>
         </div>
+
+        <!-- Left section of the page -->
         <div class="to_the_left">
+            <!-- Section heading -->
             <h4>Find pages with...</h4>
+            
+            <!-- Information for the search box -->
             <div id="todo">
                 To do this in the search box.
             </div>
         </div>
+
+        <!-- Another section on the left side of the page -->
         <div class="to_the_left">
+            <!-- Form for advanced search -->
             <table>
                 <form action="https://google.com/search">
                     <tr>
                         <td class="label-cell">all these words:</td>
-                        <td><input class="advanced_text" type="text" placeholder="test"></td>
+                        <td><input autofocus class="advanced_text" type="text" name="as_q"></td>
                         <td><div style="font-size:12px; display:inline-block;">Type the important words:&nbsp</div><div style="font-family:monospace; display:inline-block; font-size:12px">tri-colour rat terrier</div></td>
                     </tr>
                     <tr>
                         <td class="label-cell">this exact word or phrase:</td>
-                        <td><input class="advanced_text" type="text" placeholder="test"></td>
+                        <td><input class="advanced_text" type="text" name="as_epq"></td>
                         <td><div style="font-size:12px; display:inline-block;">Put exact words in quotes:&nbsp</div><div style="font-family:monospace; display:inline-block; font-size:12px">"rat terrier"</div></td>
                     </tr>
                     <tr>
                         <td class="label-cell">any of these words:</td>
-                        <td><input class="advanced_text" type="text" placeholder="test"></td>
+                        <td><input class="advanced_text" type="text" name="as_oq"></td>
                         <td><div style="font-size:12px; display:inline-block;">Type OR between all the words you want:&nbsp</div><div style="font-family:monospace; display:inline-block; font-size:12px">miniature OR standard</div></td>
                     </tr>
                     <tr>
                         <td class="label-cell">none of these words:</td>
-                        <td><input class="advanced_text" type="text" placeholder="test"></td>
+                        <td><input class="advanced_text" type="text" name="as_eq"></td>
                         <td><div style="font-size:12px; display:inline-block;">Put a minus sign just before words that you don't want:&nbsp</div><div style="font-family:monospace; display:inline-block; font-size:12px">-rodent, -"Jack Russell"</div></td>
                     </tr>
                     <tr>
