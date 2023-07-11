@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <link rel="stylesheet" href="style.css">
+
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link href="css/style.css" rel="stylesheet">
+
+        <title>not quite Google image</title>
+    </head>
+    <body>
+        <!-- Navigation bar section -->
+        <div class="navbar">
+            <a href="index.html">back</a>
+            <a href="advanced_search.html">advanced</a>
+        </div>
+
+        <!-- Logo section -->
+        <div>
+            <h2>not quite </h2><h1>Google</h1><h3> image</h3>
+        </div>
+
+        <!-- Image Search form section -->
+        <div id="input_form">
+            <form action="https://www.google.com/search">
+                <!-- Image Search input field -->
+                <input autofocus type="text" placeholder="image search" name="q">
+                <!-- Hidden input for specifying image search -->
+                <input type="hidden" name="tbm" value="isch">
+                <!-- Image Search submit button -->
+                <input type="submit" value="Google Image Search">
+            </form>
+        </div>
+    </body>
+</html>
