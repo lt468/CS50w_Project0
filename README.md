@@ -4,7 +4,7 @@
 
 This is my submission to CS50w's Project 0: Search. 
 
-For information about the course, check out the [official course page](https://cs50.harvard.edu/web/2020/)
+For information about the course, check out the [official course page](https://cs50.harvard.edu/web/2020/).
 
 ## Project Specification
 
