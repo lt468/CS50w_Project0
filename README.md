@@ -4,6 +4,8 @@
 
 This is my submission to CS50w's Project 0: Search. 
 
+[![Project Demo Video](https://img.youtube.com/vi/NL0mIokoKpE/0.jpg)](https://youtu.be/NL0mIokoKpE)
+
 For information about the course, check out the [official course page](https://cs50.harvard.edu/web/2020/).
 
 ## Project Specification
